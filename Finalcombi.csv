@@ -1,0 +1,18 @@
+Tool 1 ,Tool 2 ,Tool 3 ,Labels,Dist,Degree,Combination,LoFreq,SomVarIUS,Strelka2,Shimmer,Virmid,Mutect2,Node,Colour,Num,Type,Sensitivity,Precision 
+LoFreq,,,L,0,,,100,0,0,0,0,0,LoFreq,#E64B35FF,0,Indi,0.6706,0.65595
+SomVarIUS,,,So,0,,,0,100,0,0,0,0,SomVarIUS,#4DBBD5FF,0,Indi,0.00255,0.00005
+Strelka2,,,St,0,,,0,0,100,0,0,0,Strelka2,#00A087FF,0,Indi,0.8686,0.0371
+Shimmer,,,Sh,0,,,0,0,0,100,0,0,Shimmer,#3C5488FF,0,Indi,0.75375,0.01085
+Virmid,,,V,0,,,0,0,0,0,100,0,Virmid,#F39B7FFF,0,Indi,0.7405,0.16045
+Mutect2,,,M,0,,,0,0,0,0,0,100,Mutect2,#7E6148FF,0,Indi,0.6328,0.05875
+Strelka2 ,Shimmer ,Mutect2 ,StShM_126,0.2,pi*8,126,0,0,33.3,33.3,0,33.3,BestSens1,#A9A9A9,1,Combi,0.8776,0
+Strelka2 ,Virmid,Mutect2,StVM_126,0.8,,126,0,0,33.3,0,33.3,33.3,BestSens2,#A9A9A9,2,Combi,0.87725,0.0259
+Strelka2,Shimmer ,Virmid,StShV_126,1.2,,126,0,0,33.3,33.3,33.3,0,BestSens3,#A9A9A9,3,Combi,0.876,0.012
+LoFreq ,Shimmer ,Mutect2,LShM_0,0.2,,0,33.3,0,0,33.3,0,33.3,BestPrec1,#DCDCDC,4,Combi,0.52935,0.9689
+LoFreq ,Virmid,Mutect2 ,LVM_0,0.8,,0,33.3,0,0,0,33.3,33.3,BestPrec2,#DCDCDC,5,Combi,0.5203,0.96435
+LoFreq ,Strelka2 ,Mutect2 ,LStM_0,1.2,,0,33.3,0,33.3,0,0,33.3,BestPrec3,#DCDCDC,6,Combi,0.5569,0.95995
+LoFreq ,Shimmer ,Mutect2,LShM_6,0.2,,6,33.3,0,0,33.3,0,33.3,BestF11,#696969,7,Combi,0.6668,0.9121
+LoFreq ,Strelka2 ,Shimmer,LStSh_0,0.8,,0,33.3,0,33.3,33.3,0,0,BestF12,#696969,8,Combi,0.6293,0.93275
+LoFreq ,SomVarIUS,Shimmer,LSoSh_4,1.2,,4,33.3,33.3,0,33.3,0,0,BestF13,#696969,9,Combi,0.63005,0.91865
+LR_strelka_all,,,LRSA,0,,,0,0,0,0,0,0,LR_strelka_all,#0D952C,0,Indi,0.7588,0.74205
+LR_lofreq_all,,,LRFA,0,,,0,0,0,0,0,0,LR_lofreq_all,#0D952C,0,Indi,0.5005, 0.8865

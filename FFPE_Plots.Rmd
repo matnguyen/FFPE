@@ -82,14 +82,16 @@ plot(FinalCombi_HTMCP$Sensitivity, FinalCombi_HTMCP$Precision, xlim=c(0,1), ylim
            '#3C5488FF', '#F39B7FFF', '#7E6148FF',
            '#A9A9A9', '#A9A9A9', '#A9A9A9',
            '#A9A9A9', '#A9A9A9', '#A9A9A9',
-           '#696969', '#696969', '#696969'))
+           '#696969', '#696969', '#696969',
+           '#8E44AD', '#D4AC0D'))
 
 
 Groups <- c("LoFreq", "SomVarIUS", "Strelka2",
-            "Shimmer", "Virmid", "Mutect2", "Best F1 scores", "Best sensitivity or precision")
+            "Shimmer", "Virmid", "Mutect2", "LR Strelka", "LR LoFreq", "Best F1 scores", "Best sensitivity or precision")
 legend(x=-0.03, y=0.9, bty="n", legend=Groups, 
        fill=c('#E64B35FF', '#4DBBD5FF', '#00A087FF',
               '#3C5488FF', '#F39B7FFF', '#7E6148FF',
+              '#8E44AD', '#D4AC0D',
               '#696969', '#DCDCDC'), cex=1.2)
 
 plot(Finalcombi$Sensitivity, Finalcombi$Precision, axes=TRUE, xlim=c(0,1), ylim=c(0,1), xlab="Median sensitivity",
@@ -100,13 +102,15 @@ plot(Finalcombi$Sensitivity, Finalcombi$Precision, axes=TRUE, xlim=c(0,1), ylim=
                     '#3C5488FF', '#F39B7FFF', '#7E6148FF',
                     '#A9A9A9', '#A9A9A9', '#A9A9A9',
                     '#A9A9A9', '#A9A9A9', '#A9A9A9',
-                    '#696969', '#696969', '#696969'))
+                    '#696969', '#696969', '#696969', 
+                    '#8E44AD', '#D4AC0D'))
 
 Groups <- c("LoFreq", "SomVarIUS", "Strelka2",
-            "Shimmer", "Virmid", "Mutect2", "Best F1 scores", "Best sensitivity or precision")
+            "Shimmer", "Virmid", "Mutect2", "LR Strelka", "LR LoFreq","Best F1 scores", "Best sensitivity or precision")
 legend(x=max(Finalcombi$Precision)-1,y=max(Finalcombi$Precision)+0.05, bty="n", legend=Groups, 
        fill=c('#E64B35FF', '#4DBBD5FF', '#00A087FF',
-              '#3C5488FF', '#F39B7FFF', '#7E6148FF',
+              '#3C5488FF', '#F39B7FFF', '#7E6148FF', 
+              '#8E44AD', '#D4AC0D',
               '#696969', '#DCDCDC'), cex=1.2)
 
 
