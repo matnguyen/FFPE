@@ -1,4 +1,4 @@
-﻿Tool,Metric,Value
+Tool,Metric,Value
 LoFreq,User time (s),506528
 LoFreq,CPU time (s),657375
 LoFreq,System time (s),2073
@@ -27,3 +27,11 @@ Virmid,User time (s),70671
 Virmid,CPU time (s),976575
 Virmid,System time (s),655
 Virmid,Maximum RAM (GB),54.47
+LR_noretrain,User time (s),1703
+LR_noretrain,CPU time (s),2504
+LR_noretrain,System time (s),54
+LR_noretrain,Maximum RAM (GB),0.9
+LR_retrain,User time (s),1563
+LR_retrain,CPU time (s),2658.5
+LR_retrain,System time (s),59.5
+LR_retrain,Maximum RAM (GB),10.73
